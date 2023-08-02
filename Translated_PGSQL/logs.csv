@@ -1,0 +1,91 @@
+timestamp,file_status,status
+02/08/2023 07:56:15.875323,source/DDL_example_1.sql,"ERROR:  syntax error at or near ""`""
+LINE 1: CREATE TABLE `your_project.your_dataset.COHORT` (
+                     ^
+"
+02/08/2023 07:56:18.147804,source/ddl_converted_with_more_prompts.sql,"ERROR:  syntax error at or near ""`""
+LINE 1: CREATE TABLE `example_table` (
+                     ^
+"
+02/08/2023 07:56:19.292855,source/default_data.sql,"ERROR:  syntax error at or near ""`""
+LINE 1: CREATE TABLE `your_project.your_dataset.your_table_name` (
+                     ^
+"
+02/08/2023 07:56:23.296959,source/default_data_complex_proc.sql,"ERROR:  syntax error at or near ""DECLARE""
+LINE 15: DECLARE nand_result INT64;
+         ^
+"
+02/08/2023 07:56:25.675213,source/example_query.sql,"ERROR:  syntax error at or near ""`""
+LINE 1: CREATE TABLE `your_project.your_dataset.cdmDatabaseSchema.VI...
+                     ^
+"
+02/08/2023 07:56:27.144742,source/foreign_key_reference.sql,"ERROR:  syntax error at or near ""`""
+LINE 1: CREATE TABLE `your_project.your_dataset.order_items` (
+                     ^
+"
+02/08/2023 07:56:30.318436,source/foreign_key_reference_complex.sql,"ERROR:  syntax error at or near ""`""
+LINE 2: CREATE TABLE `prajwal_test.customers` (
+                     ^
+"
+02/08/2023 07:56:32.057168,source/function_2.sql,"ERROR:  syntax error at or near """"""""
+BEGIN_PROC
+DECLARE
+result INT64;
+BEGIN
+IF n < 0 THEN
+RAISE EXCEPTION 'The input must be a non-negative integer.';
+ELSIF n = 0 THEN
+result := 0;
+ELSIF n = 1 THEN
+result := 1;
+ELSE
+result := fibonacci_function(n - 1) + fibonacci_function(n - 2);
+END IF;
+RETURN result;
+END;
+END_PROC""""""""
+LINE 4: """"""
+        ^
+"
+02/08/2023 07:56:33.846242,source/function_example.sql,"ERROR:  syntax error at or near """"""""
+BEGIN_PROC
+DECLARE
+result INT64;
+BEGIN
+IF number_arg < 0 THEN
+RAISE EXCEPTION 'Factorial is not defined for negative numbers.';
+ELSIF number_arg = 0 OR number_arg = 1 THEN
+result := 1;
+ELSE
+result := number_arg * factorial_function(number_arg - 1);
+END IF;
+RETURN result;
+END;
+END_PROC""""""""
+LINE 4: """"""
+        ^
+"
+02/08/2023 07:56:34.785917,source/index.sql,"ERROR:  syntax error at or near ""SEARCH""
+LINE 2:  CREATE SEARCH INDEX my_index
+                ^
+"
+02/08/2023 07:56:36.975578,source/procedure_example_complex.sql,"ERROR:  syntax error at or near ""DECLARE""
+LINE 4:                             DECLARE success INT64 DEFAULT 0;
+                                    ^
+"
+02/08/2023 07:56:40.790417,source/procedure_example_various_functions.sql,"ERROR:  syntax error at or near ""DECLARE""
+LINE 15: DECLARE nand_result INT64;
+         ^
+"
+02/08/2023 07:56:42.948432,source/sequence_containing_proc.sql,"ERROR:  syntax error at or near ""OPTIONS""
+LINE 2: OPTIONS(strict_mode=false)
+        ^
+"
+02/08/2023 07:56:45.087518,source/view_complex_example.sql,"ERROR:  syntax error at or near ""`""
+LINE 1: CREATE VIEW `your_project.your_dataset.vw_order_details` AS
+                    ^
+"
+02/08/2023 07:56:46.352406,source/view_example.sql,"ERROR:  syntax error at or near ""`""
+LINE 1: CREATE VIEW `your_project.your_dataset.vw_recent_sales` AS
+                    ^
+"
