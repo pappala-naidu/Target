@@ -1,0 +1,20 @@
+CREATE TABLE `example_table` (
+  `id` INT64,
+  `bigint_column` INT64,
+  `byteint_column` INT64,
+  `decimal_column` NUMERIC,
+  `numeric_column` NUMERIC,
+  `float_column` FLOAT64,
+  `real_column` FLOAT64,
+  `double_column` FLOAT64,
+  `char_column` STRING(10),
+  `nchar_column` STRING(20),
+  `nvarchar_column` STRING(50),
+  `varbinary_column` BYTES(100),
+  `st_geometry_column` GEOGRAPHY,
+  `boolean_column` BOOL,
+  `date_column` DATE,
+  `time_column` TIME,
+  `timetz_column` TIME,
+  `timestamp_column` DATETIME
+)
