@@ -1,0 +1,41 @@
+timestamp,file_status,status
+02/08/2023 07:58:08.076994,source/ddls.sql,"ERROR:  syntax error at or near ""`""
+LINE 1: CREATE PROCEDURE `hr.sp_employee`(
+                         ^
+"
+02/08/2023 07:58:09.266794,source/func.sql,"ERROR:  syntax error at or near ""(""
+LINE 3:   AS (
+             ^
+"
+02/08/2023 07:58:10.392842,source/function.sql,"ERROR:  syntax error at or near ""(""
+LINE 3:   AS (
+             ^
+"
+02/08/2023 07:58:12.273181,source/function2.sql,"ERROR:  syntax error at or near ""CONTAINS""
+LINE 4:   CONTAINS SQL
+          ^
+"
+02/08/2023 07:58:14.340600,source/keyword_create.sql,"ERROR:  syntax error at or near ""`""
+LINE 1: CREATE TABLE `DimAccount` (
+                     ^
+"
+02/08/2023 07:58:15.672042,source/macro.sql,"ERROR:  syntax error at or near ""BEGIN""
+LINE 2: BEGIN 
+        ^
+"
+02/08/2023 07:58:17.317492,source/new_proc.sql,"ERROR:  syntax error at or near ""`""
+LINE 1: CREATE PROCEDURE `sp_employee` (
+                         ^
+"
+02/08/2023 07:58:19.379515,source/new_tera.sql,"ERROR:  syntax error at or near ""`""
+LINE 1: CREATE TABLE `DimAccount` (
+                     ^
+"
+02/08/2023 07:58:21.140739,source/procedures.sql,"ERROR:  syntax error at or near ""INSERT""
+LINE 8:   INSERT INTO Salary(
+          ^
+"
+02/08/2023 07:58:22.788942,source/teradata_sample.sql,"ERROR:  syntax error at or near ""`""
+LINE 1: CREATE TABLE `HR.Employees` (
+                     ^
+"
