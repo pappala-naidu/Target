@@ -1,0 +1,5 @@
+CREATE PROCEDURE employeetrr()
+BEGIN
+INSERT INTO EDW_RESTORE_TABLES.EMPLOYEE_LOG(Employeeid,Employeename,Salary)
+SELECT Employeeid,Employeename,Salary FROM EDW_RESTORE_TABLES.EMPLOYEE;
+END;
