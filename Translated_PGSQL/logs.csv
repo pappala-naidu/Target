@@ -1,0 +1,57 @@
+timestamp,file_status,status
+29/08/2023 20:19:27.052312,source/functions/fnEmailListUsesFeature.sql,"ERROR:  syntax error at or near ""AS""
+LINE 5: AS
+        ^
+"
+29/08/2023 20:19:31.649214,source/functions/fnGetCustomerAttributeBannerContentBlockIdentifier.sql,"ERROR:  syntax error at or near ""AS""
+LINE 8: AS 
+        ^
+"
+29/08/2023 20:19:38.249964,source/functions/fnGetMailingLibraComponents.sql,"ERROR:  syntax error at or near ""AS""
+LINE 5: RETURNS TABLE AS
+                      ^
+"
+29/08/2023 20:19:40.078305,source/functions/fnGetTargetLibraComponents.sql,"ERROR:  syntax error at or near ""AS""
+LINE 1: ...mponents (_EmailListID INT, _Target INT) RETURNS TABLE AS $$
+                                                                  ^
+"
+29/08/2023 20:19:42.018209,source/functions/fnIsTestActive.sql,"ERROR:  syntax error at or near ""AS""
+LINE 4: ) RETURNS TABLE AS
+                        ^
+"
+29/08/2023 20:19:43.285644,source/functions/fnLogToGraphite.sql,"ERROR:  syntax error at or near ""WITH""
+LINE 6: WITH EXECUTE AS CALLER
+        ^
+"
+29/08/2023 20:19:44.684795,source/functions/fnWeighSeedAndSalt.sql,"ERROR:  syntax error at or near ""AS""
+LINE 4: ) RETURNS TABLE AS
+                        ^
+"
+29/08/2023 20:19:46.577395,source/stored_procedures/spCancelCleanup.sql,"ERROR:  syntax error at or near ""BEGIN""
+LINE 6: BEGIN
+        ^
+"
+29/08/2023 20:19:48.258908,source/stored_procedures/spCreateExternalUniqueID.sql,"ERROR:  syntax error at or near ""OUTPUT""
+LINE 3:   _OutputUniqueID UNIQUEIDENTIFIER OUTPUT) AS
+                                           ^
+"
+29/08/2023 20:19:50.547585,source/stored_procedures/spLockAsyncListBuild.sql,"ERROR:  syntax error at or near ""OUTPUT""
+LINE 5:   _lock_id INT = -1 OUTPUT
+                            ^
+"
+29/08/2023 20:19:54.262394,source/stored_procedures/spLogError.sql,"ERROR:  syntax error at or near ""[""
+LINE 1: ALTER PROCEDURE [dbo].[spLogError] (
+                        ^
+"
+29/08/2023 20:19:56.526057,source/stored_procedures/spLogRunTimeFinishProcedure.sql,"ERROR:  syntax error at or near ""[""
+LINE 1: CREATE PROCEDURE [dbo].[spLogRunTimeFinishProcedure] (
+                         ^
+"
+29/08/2023 20:19:59.359172,source/stored_procedures/spLogRunTimeStartProcedure.sql,"ERROR:  syntax error at or near ""[""
+LINE 1: CREATE PROCEDURE [dbo].[spLogRunTimeStartProcedure] (
+                         ^
+"
+29/08/2023 20:20:04.707134,source/stored_procedures/spSetCustomerAttributeStoreDynamicBannerData.sql,"ERROR:  syntax error at or near ""BEGIN""
+LINE 13: BEGIN
+         ^
+"
