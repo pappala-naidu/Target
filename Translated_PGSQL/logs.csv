@@ -1,0 +1,33 @@
+timestamp,file_status,status
+12/09/2023 05:27:27.183311,source/01_CREATE_TABLE_Employee_Details.sql,"ERROR:  relation ""Employee_Details"" already exists
+"
+12/09/2023 05:27:28.287373,source/02_CREATE_TABLE_Employee_Details_Changes_to_store_changes.sql,"ERROR:  relation ""Employee_Details_Changes"" already exists
+"
+12/09/2023 05:27:31.591340,source/03_INSERT_initial_data_INTO_Employee_Details.sql,Success
+12/09/2023 05:27:34.383583,source/04_CREATE_OR_REPLACE_trigger_tr_Employee_Details_Changes_to_store_changes.sql,"ERROR:  syntax error at or near "":""
+LINE 12:     VALUES(NULL,:OLD.emp_name, v_date, 'Delete');
+                         ^
+"
+12/09/2023 05:27:36.574391,source/05_CREATE_OR_REPLACE_TRIGGER_tr_Employee_Details_to_show_changes.sql,"ERROR:  syntax error at or near ""ENABLE""
+LINE 21: ENABLE
+         ^
+"
+12/09/2023 05:27:39.872818,source/06_INSERT_INTO_Employee_Details_new_data.sql,Success
+12/09/2023 05:27:41.439943,source/07_DELETE_FROM_Employee_Details.sql,Success
+12/09/2023 05:27:42.985853,source/08_UPDATE_Employee_Details.sql,Success
+12/09/2023 05:27:44.626015,source/09_CREATE_OR_REPLACE_PROCEDURE_get_employee_details_to_get_emp_details.sql,"ERROR:  syntax error at or near ""BEGIN""
+LINE 8: BEGIN
+        ^
+"
+12/09/2023 05:27:46.449638,source/10_CALL_PROCEDURE_get_employee_details_to_display_emp_details.sql,"ERROR:  syntax error at or near ""integer""
+LINE 3:     v_employee_id integer := 1;
+                          ^
+"
+12/09/2023 05:27:48.736137,source/11_CREATE_SEQUENCE_demo_sequence1.sql,"ERROR:  syntax error at or near ""ORDER""
+LINE 8: ORDER;
+        ^
+"
+12/09/2023 05:27:50.488466,source/12_CREATE_SEQUENCE_demo_sequence2.sql,"ERROR:  syntax error at or near ""CACHE""
+LINE 7: NO CACHE
+           ^
+"
