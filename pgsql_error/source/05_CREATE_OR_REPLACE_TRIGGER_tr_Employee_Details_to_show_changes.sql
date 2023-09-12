@@ -1,0 +1,22 @@
+CREATE OR REPLACE FUNCTION tr_Employee_Details() RETURNS TRIGGER AS
+$BODY$
+BEGIN
+
+  IF (TG_OP = 'INSERT') THEN
+    RAISE NOTICE 'one line inserted';
+  ELSIF (TG_OP = 'DELETE') THEN
+    RAISE NOTICE 'one line Deleted';
+  ELSIF (TG_OP = 'UPDATE') THEN
+    RAISE NOTICE 'one line Updated';
+  END IF;
+
+  RETURN NULL;
+END;
+$BODY$
+LANGUAGE plpgsql;
+
+CREATE TRIGGER tr_Employee_Details
+BEFORE INSERT OR DELETE OR UPDATE ON Employee_Details
+FOR EACH ROW
+ENABLE
+EXECUTE PROCEDURE tr_Employee_Details();
