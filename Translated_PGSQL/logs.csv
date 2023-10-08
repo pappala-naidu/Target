@@ -1,0 +1,61 @@
+timestamp,file_status,status
+07/10/2023 22:40:06.715029,source/functions/fnEmailListUsesFeature.sql,"ERROR:  syntax error at or near ""AS""
+LINE 5: AS
+        ^
+"
+07/10/2023 22:40:11.529965,source/functions/fnGetCustomerAttributeBannerContentBlockIdentifier.sql,"ERROR:  syntax error at or near ""AS""
+LINE 8: AS 
+        ^
+"
+07/10/2023 22:40:18.173916,source/functions/fnGetMailingLibraComponents.sql,"ERROR:  syntax error at or near ""AS""
+LINE 5: RETURNS TABLE AS
+                      ^
+"
+07/10/2023 22:40:20.784476,source/functions/fnGetTargetLibraComponents.sql,"ERROR:  syntax error at or near ""AS""
+LINE 5: RETURNS TABLE AS
+                      ^
+"
+07/10/2023 22:40:22.672860,source/functions/fnIsTestActive.sql,"ERROR:  syntax error at or near ""AS""
+LINE 4: ) RETURNS TABLE AS
+                        ^
+"
+07/10/2023 22:40:23.899817,source/functions/fnLogToGraphite.sql,"ERROR:  syntax error at or near ""WITH""
+LINE 6: WITH EXECUTE AS CALLER
+        ^
+"
+07/10/2023 22:40:25.331610,source/functions/fnWeighSeedAndSalt.sql,"ERROR:  syntax error at or near ""AS""
+LINE 4: ) RETURNS TABLE AS
+                        ^
+"
+07/10/2023 22:40:26.239626,source/functions/select_top.sql,"ERROR:  syntax error at or near ""[""
+LINE 1: SELECT  LIMIT (1000) [testid], [testsuiteid], [testname]
+                                       ^
+"
+07/10/2023 22:40:28.140384,source/stored_procedures/spCancelCleanup.sql,"ERROR:  syntax error at or near ""BEGIN""
+LINE 6: BEGIN
+        ^
+"
+07/10/2023 22:40:29.902457,source/stored_procedures/spCreateExternalUniqueID.sql,"ERROR:  syntax error at or near ""OUTPUT""
+LINE 3:   _OutputUniqueID UNIQUEIDENTIFIER OUTPUT) AS
+                                           ^
+"
+07/10/2023 22:40:32.396240,source/stored_procedures/spLockAsyncListBuild.sql,"ERROR:  syntax error at or near ""OUTPUT""
+LINE 5:   _lock_id INT = -1 OUTPUT
+                            ^
+"
+07/10/2023 22:40:35.955649,source/stored_procedures/spLogError.sql,"ERROR:  syntax error at or near ""[""
+LINE 1: ALTER PROCEDURE [dbo].[spLogError] _EmailListID INT = NULL,
+                        ^
+"
+07/10/2023 22:40:37.980613,source/stored_procedures/spLogRunTimeFinishProcedure.sql,"ERROR:  syntax error at or near ""[""
+LINE 1: CREATE PROCEDURE [dbo].[spLogRunTimeFinishProcedure] (
+                         ^
+"
+07/10/2023 22:40:40.628526,source/stored_procedures/spLogRunTimeStartProcedure.sql,"ERROR:  syntax error at or near ""[""
+LINE 1: CREATE PROCEDURE [dbo].[spLogRunTimeStartProcedure] (
+                         ^
+"
+07/10/2023 22:40:45.621856,source/stored_procedures/spSetCustomerAttributeStoreDynamicBannerData.sql,"ERROR:  syntax error at or near ""BEGIN""
+LINE 13: BEGIN
+         ^
+"
