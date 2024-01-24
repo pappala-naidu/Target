@@ -1,0 +1,20 @@
+timestamp,file_status,status
+24/01/2024 07:26:47.516516,source/functions/fnEmailListUsesFeature.sql,couldn't validate
+24/01/2024 07:26:54.670669,source/functions/fnGetCustomerAttributeBannerContentBlockIdentifier.sql,couldn't validate
+24/01/2024 07:27:03.669284,source/functions/fnGetMailingLibraComponents.sql,couldn't validate
+24/01/2024 07:27:07.184649,source/functions/fnGetTargetLibraComponents.sql,couldn't validate
+24/01/2024 07:27:10.304678,source/functions/fnIsTestActive.sql,couldn't validate
+24/01/2024 07:27:12.134614,source/functions/fnLogToGraphite.sql,couldn't validate
+24/01/2024 07:27:14.407061,source/functions/fnWeighSeedAndSalt.sql,couldn't validate
+24/01/2024 07:27:16.166175,source/functions/select_top.sql,couldn't validate
+24/01/2024 07:27:22.416409,source/python_backend/call_fnemainusers.py,couldn't validate
+24/01/2024 07:27:29.110643,source/python_backend/list_of_procedures.py,couldn't validate
+24/01/2024 07:27:30.711079,source/python_backend/login.py,couldn't validate
+24/01/2024 07:27:32.265144,source/python_backend/procedure_call.py,couldn't validate
+24/01/2024 07:27:35.538514,source/stored_procedures/spCancelCleanup.sql,couldn't validate
+24/01/2024 07:27:38.410713,source/stored_procedures/spCreateExternalUniqueID.sql,couldn't validate
+24/01/2024 07:27:42.076130,source/stored_procedures/spLockAsyncListBuild.sql,couldn't validate
+24/01/2024 07:27:47.486352,source/stored_procedures/spLogError.sql,couldn't validate
+24/01/2024 07:27:50.435967,source/stored_procedures/spLogRunTimeFinishProcedure.sql,couldn't validate
+24/01/2024 07:27:54.795240,source/stored_procedures/spLogRunTimeStartProcedure.sql,couldn't validate
+24/01/2024 07:28:03.079967,source/stored_procedures/spSetCustomerAttributeStoreDynamicBannerData.sql,couldn't validate
